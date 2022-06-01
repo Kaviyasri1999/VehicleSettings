@@ -1,0 +1,150 @@
+.container{
+    border: 5px solid grey;
+    width: 1855px;
+    left: 47px;
+    top: -26px;
+    position: absolute;
+    height: 848px;
+    background-color: black;
+    color: white;
+}
+.smallcontainer{
+    position: absolute;
+    width: 1855px;
+    left: 47px;
+    top: -26px;    
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+.header{
+    
+}
+.content{
+    text-align: center;
+    font-size: 46px;
+    /* padding: 79px; */
+    position: absolute;
+    top: 250px;
+    left: 506px;
+    width: 707px;
+}
+.button{
+    position: absolute;
+    top: 600px;
+    left: 351px;
+}
+
+.closeBtn{
+    position: relative;
+    left: 1665px;
+    font-size: 100px;
+    top: -74px;
+    color: orange;
+}
+.button{
+    position: absolute;
+    top: 393px;
+    width: 100%;
+    display: inline-flex;
+    left: -369px;
+
+}
+
+.bgimg{
+    position: relative;
+    width: 712px;
+    height: 109px;
+    top: 0px;
+}
+.brakereset{   
+     position: absolute;
+top: 67px;
+left: 111px;
+}
+
+.oneOfTwo{
+    font-size: 43px;
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+}
+
+.btnTxt{
+    position: relative;
+    top: -88px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.text{
+    font-size: 45px;
+    position: absolute;
+    top: 42px;
+    left: 68px;
+    color: orange;
+
+}
+.loading{
+    position: absolute; 
+    bottom: 230px;
+    left: -582px;
+
+}
+
+.loading div{
+    margin-left: 50px;
+}
+
+
+.circle{
+    border: 1px solid grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color:white ;
+    margin-top: 13px;
+    position: relative;
+    top: 370px;
+
+}
+
+.manualcircle{
+    border: 1px solid orange;
+    width: 30px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: orange;
+    margin-top: 13px;
+    position: relative;
+    top: 122px;
+    
+
+}
+
+#circle1{
+    position: absolute;
+    /* top: 370px; */
+    left: 701px;
+}
+
+#circle2{
+    position: absolute;
+    /* top: 370px; */
+    left: 782px;
+}
+#circle3{
+    position: absolute;
+    /* top: 370px; */
+    left: 868px;
+}
+#circle4{
+    position: absolute;
+    /* top: 370px; */
+    left: 960px;
+}
+#circle5{
+    position: absolute;
+    /* top: 370px; */
+    left: 1044px;
+}

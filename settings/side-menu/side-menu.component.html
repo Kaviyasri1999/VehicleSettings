@@ -1,0 +1,24 @@
+<div class="showpart">
+    <div class="box-list" id="box-list">
+          <div class="box" [ngClass]="{'active': selectedItem == menu.sideMenu}" *ngFor = "let menu of sideMenus" (click)="onSideMenuClick(menu.sideMenu)" >
+              <div class="text-placeholder">
+                <span class="text">{{menu.sideMenu}}</span>
+              </div>
+            <img src="assets/images/settings/LeftBTN.png" class="deactive-box" alt="left btn box"  draggable="false">
+            <img src="assets/images/settings/LeftBTNSelect.png" class="selected-box" alt="left btn selected box"  draggable="false">
+          </div>
+    </div>
+  </div>
+
+  <div id = "downarr" class="presetBlockdown" [ngStyle]="curdownarrScrn == 'showfirstpart'?{'display':'block'}:{'display':'none'}" (click)="presetdown($event)">
+    <div class="text-placeholder">
+    <img class="presetdownIcon" src="assets/images/settings/LeftDownArrow.png" alt="down Arrow" draggable="false">
+    </div>
+    <img src="assets/images/settings/LeftBTN.png" alt="left btn box"  draggable="false">
+</div>
+<div class="presetBlockup" [ngStyle]="curuparrScrn == 'showsecondpart'?{'display':'block'}:{'display':'none'}"  (click)="presetup($event)">
+      <div class="text-placeholder">
+          <img class="presetdownIcon" src="assets/images/settings/LeftDownArrow.png" alt="down Arrow" draggable="false">
+    </div>
+    <img src="assets/images/settings/LeftBTN.png" alt="left btn box"  draggable="false">
+</div> 

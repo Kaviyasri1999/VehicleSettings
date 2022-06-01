@@ -1,0 +1,78 @@
+
+<div class="container">
+    <div class="header">
+        <div class="text">{{title}}</div>
+        <h1 class="closeBtn" (click)="closePopup()">x</h1>
+    </div>
+    <div class="content">
+    	<div [hidden]="screen != 'factoryReset'">
+            <div>{{description}}</div>
+
+
+            <div class="button">
+                <div class="oneOfTwo">
+                    <img alt='plus Icon' class='bgimg' draggable='false'
+                        src='assets/images/deviceManager/addDevicePopup/AddDeviceBG.png'>
+                    <span class="btnTxt">Yes</span>
+
+                </div>
+                <div class="oneOfTwo" (click)="closePopup()">
+                    <img alt='plus Icon' class='bgimg' draggable='false'
+                        src='assets/images/deviceManager/addDevicePopup/AddDeviceBG.png'>
+                    <span class="btnTxt">No</span>
+
+                </div>
+            </div>
+        </div>
+        <div [hidden]="screen != 'language'">
+            <div>{{description}}</div>
+        </div>
+        <div [hidden]="screen != 'brakeService'">
+            <div>Would you like to retract Park Brakes to allow for Brake system Serice?</div>
+
+
+            <div class="button">
+                <div class="oneOfTwo" (click)="searchBrake()">
+                    <img alt='plus Icon' class='bgimg' draggable='false'
+                        src='assets/images/deviceManager/addDevicePopup/AddDeviceBG.png'>
+                    <span class="btnTxt">Yes</span>
+
+                </div>
+                <div class="oneOfTwo" (click)="closePopup()">
+                    <img alt='plus Icon' class='bgimg' draggable='false'
+                        src='assets/images/deviceManager/addDevicePopup/AddDeviceBG.png'>
+                    <span class="btnTxt">No</span>
+
+                </div>
+            </div>
+        </div>
+        <div [hidden]="screen != 'Initialize'">
+            <div>Initializing Brake Service.</div>
+            <div>Please Wait...</div>
+            <div class="loading">
+                <div class="circle" id="circle1"></div>
+                <div class="circle" id="circle2" *ngIf="showCircle>=2"></div>
+                <div class="circle" id="circle3" *ngIf="showCircle>=3"></div>
+                <div class="circle" id="circle4" *ngIf="showCircle>=4"></div>
+                <div class="circle" id="circle5" *ngIf="showCircle>=5"></div>
+            </div>
+
+
+           
+        </div>
+        <div [hidden]="screen != 'PedalActivate'" class="pedalactivate">
+            <div>Park Brake Retracted</div>
+            <div style="width:717px;">To reset,press brake pedal and activate</div>
+            <div>Park Brake switch</div>
+            
+
+
+           
+        </div>
+        <div [hidden]="screen != 'BrakeReset'" class="brakereset">
+            <div>Park Brake Reset</div>
+            <div>Brake Service exit complete</div>
+           
+        </div>
+    </div>
+</div>

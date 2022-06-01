@@ -1,0 +1,75 @@
+:host {
+    position: relative;
+    display: block;
+    left: 287px;  
+    width: 1485px;
+    height:120px;
+  }
+  .type1{
+    position: relative;
+    display: block;
+    left:0px;
+    top:0px;
+    width: 1485px;
+    height:120px;
+  }
+  .listBg{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width: 1485px;
+    height:4px;
+  }
+  
+  .textVal{
+    position: absolute;
+    top:33px;
+    left: 60px;
+    font-size: 43px;
+    color: white;
+    width:900px;
+  }
+  
+  #checkBox_0{
+    position: absolute;
+    top:17px;
+    right: 230px;
+    font-size: 42px;
+    color: white;
+  }
+   .infoIcon{
+    position: absolute;
+    top:45px;
+    right:19px;
+}
+
+  #checkBox_1{
+    position: absolute;
+    top:17px;
+    right: 505px;
+    font-size: 42px;
+    color: white;
+  }
+  #checkBox_2{
+    position: absolute;
+    top:17px;
+    right: 771px;
+    font-size: 42px;
+    color: white;
+  }
+  .subLabel{
+    position: absolute;
+    top: -7px;
+    right: -61px;
+    width: 188px;
+    height: 90px;
+    text-align: center;
+    font-size: 34px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+#SDA_LKAWT .textVal {
+  font-size: 38px;
+}

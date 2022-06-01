@@ -1,0 +1,9 @@
+<div  class="type2" id={{id}}>
+        <img class="listBg" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>
+        <img class="infoIcon" *ngIf="visible" draggable="false" (click)=onInfoIconClick($event) src="assets/images/settings/dropDown.png" />
+    
+        <div class="textVal">{{listTitle}}</div>
+         <div id="arrow" (click)="listClicked()"><label class="subLabel"></label>
+            <img class="arw" draggable="false" src="assets/images/settings/nxtArrow.png" />
+            </div> 
+</div>

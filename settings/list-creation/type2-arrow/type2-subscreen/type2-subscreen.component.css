@@ -1,0 +1,11 @@
+:host {
+    position: absolute;
+    display: block;
+    left: 287px;  
+    width: 1485px;
+    height:120px;
+  }
+  #backArrow{
+      position: absolute;
+      
+  }

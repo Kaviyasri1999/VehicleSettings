@@ -1,0 +1,8 @@
+<div class="popupContainer">
+    <img class="profileIcon" *ngIf="visible=='true'" src="assets/images/settings/settingsProfIcon.png"  draggable="false">
+    <div class="titleTxt">{{title}}</div>
+    <img class="infoBg" src="assets/images/settings/infoPopup/infoBg.png"  draggable="false">
+    <img class="divider" src="assets/images/settings/infoPopup/divider.png"  draggable="false">
+    <div class="descTxt">{{desc}}</div>
+    <img class="closeBtn" (click)=onClose($event) src="assets/images/settings/infoPopup/closeBtn.png"  draggable="false">
+</div>

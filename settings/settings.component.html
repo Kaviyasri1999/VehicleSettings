@@ -1,0 +1,11 @@
+<div class="topArea" *ngIf="this.settingsService.hideParentScreen || this.settingsService.generic_popup">
+    <!-- <img class="border-top" src="assets/images/deviceManager/top/Border.png" alt="border" draggable="false"> -->
+    <img class="backBtn" id = "backbtn" (click)="backBtnClickHandler()" draggable="false" src="assets/images/deviceManager/top/backBtn.png"/> 
+    <span id="label">{{this.settingsService.breadCrumbTitle}}</span>
+</div>
+
+
+<list-creation id="listArea" ></list-creation>
+<side-menu id="sideMenu" [hidden]="this.settingsService.hideParentScreen" ></side-menu>
+<audio-settings *ngIf="this.settingsService.isAudioSettings" class="audioSettings"></audio-settings>
+<generic-popup *ngIf="this.settingsService.generic_popup" class="brsakeServ" (popupClosed)="backBtnClickHandler()" [screen]="this.settingsService.popupScreen" [title]="this.settingsService.popupTitle" [description]="this.settingsService.popupDesc"></generic-popup>

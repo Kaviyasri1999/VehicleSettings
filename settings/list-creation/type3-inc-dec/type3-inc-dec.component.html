@@ -1,0 +1,17 @@
+<div class="type3" id={{id}}  >
+    <img class="listBg" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>
+  <div class="textVal">{{listTitle}}</div> 
+  <div class="counterContainer">
+    <img id="decBtn" [ngStyle]="{'opacity': arr.defaultVal == arr.minVal && !arr.isCyclic ? '0.5' : '1'}" (click)="changeValue('dec')"
+      (mousedown)="onMouseDown($event,'dec')" (mouseup)="onMouseUp($event)"
+      src="assets/images/shared/counter/MinusIcon.png" alt="decrement btn" draggable="false" />
+    <span [hidden]="arr.stringState" class="counterVal">{{arr.defaultVal}}</span>
+    <span [hidden]="!arr.stringState" class="counterVal">{{defVal}}</span>
+    <img id="incBtn" [ngStyle]="{'opacity': arr.defaultVal == arr.maxVal && !arr.isCyclic ? '0.5' : '1'}" (click)="changeValue('inc')"
+      (mousedown)="onMouseDown($event,'inc')" (mouseup)="onMouseUp($event)"
+      src="assets/images/shared/counter/PlusIcon.png" alt="increment btn" draggable="false" />
+  </div>
+  <img class="infoIcon" *ngIf="visible" (click)=onInfoIconClick() draggable="false" src="assets/images/settings/dropDown.png" />
+</div>
+
+<div [ngClass]="hidden ? 'disabled':''" ></div>

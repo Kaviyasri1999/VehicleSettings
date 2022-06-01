@@ -1,0 +1,41 @@
+.popupContainer{
+    position: absolute;
+    top: -49px;
+    left: 16px;
+}
+img.infoBg {
+    width: 1593px;
+    height: 717px;
+}
+.divider{
+    position: absolute;
+    top:140px;
+    left:260px;
+}
+.closeBtn{
+    position: absolute;
+    top:35px;
+    right:35px;
+}
+.titleTxt{
+    text-align: center;
+    width:100%;
+    position: absolute;
+    top:60px;
+    font-size: 47px;
+    color: white;
+}
+.descTxt{
+    position: absolute;
+    top: 169px;
+    font-size: 45px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.profileIcon{
+    position: absolute;
+    top:50px;
+    left:153px;
+}

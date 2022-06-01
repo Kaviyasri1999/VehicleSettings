@@ -1,0 +1,5 @@
+<scrollpane-cmp id="scrollCntr" paddingVal="15" itemHeight="82" mskHeight="724" mskWidth="1772"  scrollerLeft="1770" scrollPaneHeight="387" scrolPaneContnrLeft= "-15" scrollPaneWidth="1500"  barHeight="475" #scrollpane>
+    <ng-container #listContainer id="list" > </ng-container>
+</scrollpane-cmp>
+
+<info-popup [title]="this.infoTitle" [desc]="this.infoDesc" [hidden]="!this.settingsService.infoPopupVisible" (infoPopupClosed)="this.settingsService.infoPopupVisible = false" class="infoPopup"></info-popup>

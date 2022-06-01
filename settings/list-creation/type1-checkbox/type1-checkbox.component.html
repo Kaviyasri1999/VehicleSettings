@@ -1,0 +1,8 @@
+<div class="type1" id={{id}}>
+    <img class="listBg" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>
+    <img class="infoIcon" *ngIf="visible" draggable="false" (click)=onInfoIconClick($event) src="assets/images/settings/dropDown.png" />
+    <div class="textVal">{{listTitle}}</div>
+    <div id='checkBox_{{i}}' *ngFor="let cbVal of checkboxValues;let i = index"><label class="subLabel">{{ cbVal.name }}</label>
+        <checkbox id='chkBox_{{i}}' [state]="cbVal.state" (checkboxStatus)="checkBoxClicked($event,i)"></checkbox>
+    </div>
+</div>

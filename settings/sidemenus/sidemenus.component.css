@@ -1,0 +1,88 @@
+#albums,#genres{
+    display: none;
+}
+.presetText
+{
+    position: absolute;
+    top: 26px;
+    padding: 0px 21px;
+}
+.presetdownIcon
+{
+    margin: 14% auto;
+    display: table;
+    position: relative;
+}
+.presetupIcon{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+.presetBlockup{
+    display: none;
+}
+.presetBlockup img {
+    transform: rotate( -180deg );  
+}
+ 
+.box {
+    position: relative;
+    top: 0;
+    padding: 11px 0;
+    height: 101px;
+    min-height: 101px;
+    max-height: 101px;
+}
+.box-list {
+    position: relative;
+    top: 0;
+}
+.box .text {
+    position: absolute; 
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.showpart {
+    height: 750px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.presetBlockdown {
+    position: relative;
+    top: 627px;
+    background: #222;
+}
+
+.presetBlockup {
+    display: block;
+    position: absolute;
+    top: 10px;
+    background: #222;
+}
+
+.text-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.selected-box{
+    display: none;
+}
+
+.active .deactive-box {
+    display: none;
+}
+.active .selected-box {
+    display: inline-block;
+}

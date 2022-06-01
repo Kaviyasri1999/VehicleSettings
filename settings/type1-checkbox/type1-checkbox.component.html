@@ -1,0 +1,28 @@
+<div class="type1">
+    <!-- <div *ngFor="let chk of checkboxList">
+        <div class="textVal">{{chk.maintitle}}</div>
+    <div id="checkBox1"><label class="subLabel">{{ chk.checkboxValues[0]}}</label>
+        <checkbox class="checkBox" (checkboxStatus)="check1Clicked($event,chk.checkboxValues.length)" #check1Mc></checkbox>
+    </div>
+    <div id="checkBox2" *ngIf="chk.checkboxValues.length ==2 || chk.checkboxValues.length ==3"><label class="subLabel">{{chk.checkboxValues[1]}}</label>
+        <checkbox class="checkBox" (checkboxStatus)="check2Clicked($event, chk.checkboxValues.length)" #check2Mc></checkbox>
+    </div>
+    <div id="checkBox3" *ngIf="chk.checkboxValues.length ==3"><label class="subLabel">{{chk.checkboxValues[2]}}</label>
+        <checkbox class="checkBox" (checkboxStatus)="check3Clicked($event,chk.checkboxValues.length)" #check3Mc></checkbox>
+    </div>
+</div> -->
+    <img class="listBg" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>
+    
+    <!-- <img class="infoIcon" *ngIf="visible=='true'"draggable="false" (click)=infoIconClicked($event) src="assets/images/settings/dropDown.png" /> -->
+ 
+    <div class="textVal">{{listTitle}}</div>
+    <div id="checkBox1"><label class="subLabel">{{ checkboxValues[0]}}</label>
+        <checkbox class="checkBox" (checkboxStatus)="check1Clicked($event,checkboxValues.length)" #check1Mc></checkbox>
+    </div>
+    <div id="checkBox2" *ngIf="checkboxValues.length ==2 || checkboxValues.length ==3"><label class="subLabel">{{checkboxValues[1]}}</label>
+        <checkbox class="checkBox" (checkboxStatus)="check2Clicked($event, checkboxValues.length)" #check2Mc></checkbox>
+    </div>
+    <div id="checkBox3" *ngIf="checkboxValues.length ==3"><label class="subLabel">{{checkboxValues[2]}}</label>
+        <checkbox class="checkBox" (checkboxStatus)="check3Clicked($event,checkboxValues.length)" #check3Mc></checkbox>
+    </div>
+</div>

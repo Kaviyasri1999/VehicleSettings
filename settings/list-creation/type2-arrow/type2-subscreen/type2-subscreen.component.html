@@ -1,0 +1,31 @@
+<!-- <ng-container  *ngIf="this.compLevel == 'level2' && !isMultiCheckbox"> 
+    <div class="topmenu1">
+        <span id="backArrow" (click)="showPrevScreen()">Back Arrow</span> 
+        <img class="listBgHead" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>        
+         <div class="type2SubScreen" [ngStyle]="{'top':((i+1)*140)+'px'}" *ngFor="let cbVal of checkboxValues;let i = index">
+            <img class="listBg" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>
+            <div class="textVal">{{cbVal.name}}</div>
+            <checkbox  [state]="cbVal.state" id="arrow" (checkboxStatus)="checkBoxClicked($event,i)" #checkbox ></checkbox>
+        </div>        
+    </div>
+    </ng-container>
+
+
+
+<ng-container  *ngIf="this.compLevel == 'level2' && isMultiCheckbox"> 
+        <div class="topmenu2">
+            <span id="backArrow" (click)="showPrevScreen()">Back Arrow</span>
+            <img class="listBgHead" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>        
+            <div class='type2SubScreen' [ngStyle]="{'top':((i+1)*140)+'px'}" *ngFor="let cbVal of checkboxValuesMulti;let i = index">
+            <img class="listBgSub" draggable="false" src="assets/images/settings/ListDivider.png" alt = "list divider"/>
+            <img class="infoIcon" *ngIf="infoIconVisibleL2[i].visible" draggable="false" (click)=onInfoIconClick(i) src="assets/images/settings/dropDown.png" />
+    
+            <div class="textVal">{{cbVal.name}}</div>
+             <div id='checkBox_{{j}}' *ngFor="let cbValMulti of checkboxValuesMulti[i].subList;let j = index">       
+                <label class="subLabel">{{ cbValMulti.name }}</label>
+                <checkbox id='chkBox_{{j}}' [state]="cbValMulti.state" (checkboxStatus)="checkBoxMultiClicked($event,i,j)"></checkbox>
+            </div>
+            </div>
+        </div>
+</ng-container>  -->
+<span id="backArrow" >Back Arrow</span>

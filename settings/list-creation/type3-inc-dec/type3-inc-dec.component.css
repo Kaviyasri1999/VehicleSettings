@@ -1,0 +1,73 @@
+:host {
+    position: relative;
+    display: block;
+    left: 287px;  
+    width: 1485px;
+    height:120px;
+  }
+  .type3{
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: -16px;
+    width: 1485px;
+    height: 136px;
+  }
+  .listBg{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width: 1485px;
+    height:4px;
+  }
+  
+  .textVal{
+    position: absolute;
+    top:52px;
+    left: 60px;
+    font-size: 43px;
+    color: white;
+    width:900px;
+  } 
+  .infoIcon
+  {
+    position: absolute;
+    top:45px;
+    right:35px;
+  }
+  .disabled{
+    background-color: #00000080;
+    position: absolute;
+    left: 0px;
+    top: -1px;
+    width: 1485px;
+    height: 120px;
+  }
+  .counterContainer{
+    position: relative;
+    top: 36px;
+    left: 1135px;
+  }
+  
+  #decBtn{
+    position: absolute;
+    left:-45px;
+    top:0px;
+  }
+  
+  #incBtn{
+    position: absolute;
+    left:184px;
+    top:0px;
+  }
+  
+  .counterVal{
+    position: absolute;
+    left: 38px;
+    top: 15px;
+    font-size: 45px;
+    color: white;
+    width: 140px;
+    text-align: center;
+  }
+  

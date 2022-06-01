@@ -1,0 +1,72 @@
+#listArea{
+  position : absolute;
+  top:0px;
+  left : 0px;
+}
+#sideMenu{
+  position : absolute;
+  top: -11px;
+  left: 8px;
+}
+.audioSettings{
+  position: absolute;
+  top: -15px;
+}
+
+
+#infoPopup{
+    position: absolute;
+    top: 40px;
+    left: 200px;
+}
+.type3{
+    position: absolute;
+    top:600px;
+}
+.topArea{
+ position: absolute;
+  top:-135px;
+  left:0px;
+height:115px;
+width: 1920px;
+background-image: url("../../../../../../assets/images/main/bg.png");
+/* background: dimgray; */
+}
+
+.backBtn
+{
+  position: absolute;
+  top:14px;
+  left: 25px;
+}
+#label {
+  position: absolute;
+  top: 46px;
+  left: 156px;
+  width: 1000px;
+  font-size: 42px;
+  color: #eab100
+}
+
+/*#label{
+    position: absolute;
+    top: 42px;
+    left: 156px;
+    width: 650px;
+    font-size: 42px;
+    color: #eab100;
+    }*/
+    .border-top {
+        position: absolute;
+        top: 120px;
+        left: 27px;
+      }
+#audioSetting{
+    position : absolute;
+    top: -5px;
+}
+.brsakeServ{
+  position: absolute;
+  top:-104px;
+  left:-22px;
+}

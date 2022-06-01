@@ -1,0 +1,76 @@
+:host {
+    position: relative;
+    display: block;
+    left: 287px;  
+    width: 1485px;
+    height:120px;
+  }
+.type2{
+    position: relative;
+    display: block;
+    left:0px;
+    top:0px;
+    width: 1485px;
+    height:120px;
+  }
+  .listBg{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    width: 1485px;
+    height:4px;
+  }  
+  .textVal{
+    position: absolute;
+    top:33px;
+    left: 60px;
+    font-size: 43px;
+    color: white;
+    width:900px;
+  }
+  .subLabel{
+    position: absolute;
+    top:18px;
+    right:10px;
+  }
+  .arw{
+    position: absolute;
+    top:29px;
+    left:89px;
+  }
+  .infoIcon
+  {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+  #arrow{
+    position: absolute;
+    top:17px;
+    right: 230px;
+    font-size: 42px;
+    color: white;
+  }
+  #checkBox_0{
+    position: absolute;
+    top:17px;
+    right: 230px;
+    font-size: 42px;
+    color: white;
+  }
+  #checkBox_1{
+    position: absolute;
+    top:17px;
+    right: 460px;
+    font-size: 42px;
+    color: white;
+  }
+  #checkBox_2{
+    position: absolute;
+    top:17px;
+    right: 690px;
+    font-size: 42px;
+    color: white;
+  }
+  
+ 
